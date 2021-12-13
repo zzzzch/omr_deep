@@ -12,4 +12,6 @@ Put the training text files in train/words/
 Run python ocr.py -r t
 
 ## Prediction
-Run python ocr.py
+Run python ocr.py -c resnet50_trans_last.pt -d ./data/
+
+*resnet50_trans_last.pt come from ##Training result
